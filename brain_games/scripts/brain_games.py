@@ -1,5 +1,11 @@
-def main():
-    print("Welcome to the Brain Games!")
+from typing import NoReturn
+
+from brain_games.cli import welcome_user
+
+
+def main() -> NoReturn:
+    print('Welcome to the Brain Games!')
+    welcome_user()
 
 
 if __name__ == "__main__":
